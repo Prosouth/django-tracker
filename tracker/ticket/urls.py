@@ -5,6 +5,6 @@ urlpatterns = [
     url(r'^home/$', home, name="home"),
     url(r'^home/(\w+)$', home, name="home"),
     url(r'^$', ticket_listing, name="listing"),
-    url(r'^list/(\w+)', ticket_list, name="list"),
+    url(r'^list/$', ticket_list, name="list"),
     url(r'^detail/(\d+)', ticket_detail, name="detail")
 ]
